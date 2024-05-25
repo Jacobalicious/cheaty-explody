@@ -1,0 +1,22 @@
+/* styles.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#button-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 5px;
+}
+
+button img{
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
